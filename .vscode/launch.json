@@ -1,0 +1,21 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch React App",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "port": 9229,
+      "restart": true,
+      "env": {
+        "CI": "true"
+      }
+    }]
+    
+}
